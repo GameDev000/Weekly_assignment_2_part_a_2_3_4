@@ -45,4 +45,4 @@ In the Unity scene:
 Each script can be attached independently to any GameObject,  
 allowing you to combine transformations (for example, a rotating and pulsating ball).  
 
-<a href="https://itch.io">itch.io</a>
+<a href="https://itch.io/game/edit/4031233">itch.io</a>
