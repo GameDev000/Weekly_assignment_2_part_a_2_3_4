@@ -1,4 +1,4 @@
-# Weekly_Assignment_2_Part_B_Transformations  
+# Weekly_assignment_2_part_a_2_3_4
 
 ### What this project is  
 This Unity task demonstrates three custom scripts — **Rotator**, **Ball**, and **Display**. 
