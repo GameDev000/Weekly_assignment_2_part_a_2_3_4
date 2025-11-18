@@ -4,7 +4,6 @@ public class Ball : MonoBehaviour
 {
     public Vector3 CenterPoint = new Vector3(0, 0, 0);
     public float Max = 5f;
-
     public float Min = 4f;
     private bool isGrowing = true;
 
@@ -13,8 +12,6 @@ public class Ball : MonoBehaviour
     {
         CenterPoint = transform.position;
     }
-    
-
     // Update is called once per frame
     void Update()
     {
