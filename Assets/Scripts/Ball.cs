@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class Ball : MonoBehaviour
 {
-    public Vector3 CenterPoint = new Vector3(0, 0, 0);
-    public float Max = 5f;
-    public float Min = 4f;
+    [SerializeField] public Vector3 CenterPoint = new Vector3(0, 0, 0);
+    [SerializeField] public float Max = 5f;
+    [SerializeField] public float Min = 4f;
     private bool isGrowing = true;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created

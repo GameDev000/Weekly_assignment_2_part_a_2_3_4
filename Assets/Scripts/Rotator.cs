@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class Rotator : MonoBehaviour
 {
-    public Vector3 CenterPoint = new Vector3(0, 0, 0);
-    public float SpeedRotation = 90f;
+    [SerializeField] public Vector3 CenterPoint = new Vector3(0, 0, 0);
+    [SerializeField] public float SpeedRotation = 90f;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
