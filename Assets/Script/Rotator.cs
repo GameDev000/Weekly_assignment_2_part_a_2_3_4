@@ -16,7 +16,7 @@ public class Rotator : MonoBehaviour
     void Update()
     {
 
-        transform.Rotate(0, 0, SpeedRotation* Time.deltaTime); //Time.deltaTime= s between frame
-        
+        transform.Rotate(0, 0, SpeedRotation * Time.deltaTime); //Time.deltaTime= s between frame
+
     }
 }
