@@ -17,10 +17,13 @@ public class Ball : MonoBehaviour
     void Update()
     {
         if (transform.localScale.x >= Max)
+        {
             isGrowing = false;
+        }
         if (transform.localScale.x <= Min)
+        {
             isGrowing = true;
-
+        }
         float direction = isGrowing ? 1f : -1f;
         transform.localScale += new Vector3(1, 1, 1) * direction * 2f * Time.deltaTime;
     }
